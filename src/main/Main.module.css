@@ -1,0 +1,16 @@
+.mainBlock{
+    height: 100vh;
+    background-color: #9d9999;
+}
+.text{
+    width: 300px;
+   /* background-color: #beafaf;*/
+
+}
+.photo{
+    width: 320px;
+    height: 250px;
+    background-color: #588c79;
+    background-image: url("http://files.fynsy.ru/pictures_big/golovolomka-radost_01.jpg")
+
+}
