@@ -24,7 +24,9 @@ export const Main = () => {
                 </p>
 
             </div>
-            <div className={s.photo}><img /></div>
+            <div className={s.photo}>
+
+            </div>
             </div>
         </div>
     );

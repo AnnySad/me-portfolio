@@ -2,5 +2,5 @@
     border: 1px solid #7171f8;
     width: 300px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
