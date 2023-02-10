@@ -1,4 +1,4 @@
-.skill {
+.skill{
     width: 250px;
     background-color: #adcdad;
     display: flex;
@@ -9,10 +9,10 @@
     box-sizing: border-box;
 }
 
-.icon {
+.icon{
     height: 60px;
     width: 60px;
-    background-color: #282c34;
+    background-color: antiquewhite;
 }
 
 .description {
