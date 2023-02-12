@@ -1,0 +1,28 @@
+.footerBlock {
+   min-height: 50%;
+    background-color: #484848;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form {
+    width: 60px;
+    height: 60px;
+    background-color: #b6c1c1;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.color{
+    background-color: #d5dbd5;
+}
+.footer{
+    border: 1px solid;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}

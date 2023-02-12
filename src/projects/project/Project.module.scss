@@ -1,0 +1,63 @@
+@import "../../common/styles/sass/variabels";
+
+.project {
+  width: 250px;
+  background-color:$bgSecondColor;
+  display: flex;
+  flex-direction: column;
+
+  .projectLogo {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: #0c0c0c;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
+    }
+    .viewBtn {
+      background-color: $primaryColor;
+      padding: 10px 10px;
+      position: relative;
+      z-index: 1;
+      color: $textColor;
+    }
+  }
+
+  .information {
+    padding: 25px 20px;
+
+    .proTitle {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 16px;
+      letter-spacing: 1px;
+      margin: 0 0 5px;
+      line-height: 1.2;
+      color: $textColor;
+    }
+
+    .description {
+      font-family: "Poppins", sans-serif;
+      line-height: 1.8;
+      font-weight: 400;
+      font-size: 14px;
+      color: $textColor;
+    }
+  }
+}
+
+
+
+
+
+

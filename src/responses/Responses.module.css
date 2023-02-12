@@ -1,0 +1,13 @@
+.responseBlock{
+    background-color: #69c6c6;
+    flex-wrap: wrap;
+}
+
+.responseContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title{
+    background-color: #4a4c47;
+    text-align: center;
+}
