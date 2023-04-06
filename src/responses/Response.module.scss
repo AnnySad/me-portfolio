@@ -1,0 +1,16 @@
+@import "../../src/common/styles/sass/variabels";
+@import "../../src/common/styles/sass/mixins";
+
+.response{
+    background-color:$bgSecondColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .proTitle {
+        @include textMixin($titleFondFamily,20px,1.2);
+        margin: 0 0 5px;
+        letter-spacing: 1px;
+
+    }
+}

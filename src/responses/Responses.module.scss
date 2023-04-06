@@ -1,0 +1,42 @@
+@import "../../src/common/styles/sass/variabels.scss";
+@import "../../src/common/styles/sass/mixins.scss";
+
+.responseBlock {
+  background-color:$bgColor;
+  flex-wrap: nowrap;
+
+  .responseContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .title {
+      background-color:$bgSecondColor;
+      text-align: center;
+    }
+    .viewBtn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 50px;
+        border: none;
+        cursor: pointer;
+
+        border-radius: 2px;
+        background-color: #e5c4c4;
+        height: 30px;
+
+      :hover {
+        text-transform: none;
+        background-color: #2196f3;
+        color: #282c34;
+        box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+        transition-delay: 1s;
+      }
+
+    }
+  }
+}
+
+
