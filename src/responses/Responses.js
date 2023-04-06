@@ -9,7 +9,7 @@ function Responses() {
     return (
         <div className={style.responseBlock}>
             <div className={`${styleContainer.container} ${style.responseContainer}`}>
-                <Response title={"Рассматриваю варианты удаленной работы"}
+                <Response title={"Considering remote work options"}
                 />
                 <button><a href={''}>Response</a></button>
             </div>

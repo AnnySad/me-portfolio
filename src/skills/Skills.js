@@ -1,8 +1,9 @@
 import React from 'react'
-import style from './Skills.module.css';
+import style from './Skills.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
+import s from "../projects/project/Project.module.scss";
 
 export function Skills() {
     return (
@@ -12,7 +13,7 @@ export function Skills() {
                 <div className={style.skills}>
                     <Skill title={"JS"}
                            description={"yo.yo.yo .yo....yo.yo .yo.yo....yo.yo .yo.yo...."}/>
-                    <Skill title={"Css"}
+                    <Skill  title={"Css"}
                            description={"bla-bla-bla...bla-bla-bla.....bla-bla-bla....bla-bla-bla...."}/>
                     <Skill title={"React"}
                            description={"just do it....just do it....just do it....just do it....just do it....just do it....just do it...."}/>

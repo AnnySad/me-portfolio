@@ -1,0 +1,36 @@
+@import "../../src/common/styles/sass/variabels.scss";
+@import "../../src/common/styles/sass/mixins.scss";
+
+
+.skillsBlock{
+    min-height: 100vh;
+    background-color:$bgColor;
+    padding: 100px 0;
+
+
+.skillsContainer{
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+.skills{
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+    .proTitle {
+        @include textMixin($titleFondFamily, 16px, 1.2);
+        margin: 0 0 5px;
+        letter-spacing: 1px;
+    }
+}
+}
+
+}
+.title{
+    background-color: greenyellow;
+    text-align: center;
+}

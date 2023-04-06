@@ -1,0 +1,34 @@
+@import "../../common/styles/sass/variabels.scss";
+@import "../../common/styles/sass/mixins.scss";
+
+.skill {
+  width: 250px;
+  background-color: $bgSecondColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+
+  .icon {
+    height: 60px;
+    width: 60px;
+    background-color: antiquewhite;
+  }
+
+  .proTitle {
+    @include textMixin($titleFondFamily, 16px, 1.2);
+    margin: 0 0 5px;
+    letter-spacing: 1px;
+  }
+
+  .description {
+    @include textMixin($textFondFamily, 14px, 1.8);
+    font-weight: 400;
+  }
+
+}
+
+
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "./Main.module.css"
+import s from "./Main.module.scss"
 import style from "../common/styles/Container.module.css"
 import TypedReactDemo from "./text";
 
