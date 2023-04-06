@@ -22,7 +22,7 @@ function Footer() {
 
             </div>
 
-                <p className={style.color}>© 2021 All Rights Reserved.</p>
+                <p className={style.color}>© 2023 All Rights Reserved.</p>
             </div>
         </div>
     );

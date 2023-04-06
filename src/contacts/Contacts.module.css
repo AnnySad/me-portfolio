@@ -85,8 +85,9 @@
     margin-top: 50px;
     border: none;
     cursor: pointer;
+
     border-radius: 2px;
-    background-color: red;
+    background-color: #e5c4c4;
     height: 30px;
 }
 .send:hover {
